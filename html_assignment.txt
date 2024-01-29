@@ -1,0 +1,56 @@
+1.What are inline and block elements in HTML and the difference between them Name a few inline elements and block elements?
+
+Sol:Inline elements only take up as much width as necessary, and they do not start on a new line. They flow within the content and typically only take up the width of their content.
+Block elements, on the other hand, start on a new line and take up the full width available, extending to the left and right edges of their container. They create a "block" of content.
+Difference:Inline elements only take up as much width as necessary, while block elements extend to the full width of their container by default.
+Inline elements: <span>, <a>, <strong>, <em>, <img> etc.
+Block elements: <div>, <p>, <h1>, <ul>, <li> etc.
+
+2.How to work with images in HTML and explain in detail <img/ tag important attributes.
+
+Sol:In HTML, the <img> (image) tag is used to embed images into a web page. The <img> tag is an empty, self-closing tag, and it doesn't have a closing tag.
+Syntax:<img src="image.jpg" alt="Description of the image" width="300" height="200">
+
+Some of the important attributes of the <img> tag:
+
+src:This attribute is required and specifies the path to the image file. It can be a relative or absolute URL.
+
+alt:This attribute provides alternative text for the image, which is displayed if the image cannot be loaded. 
+
+width and height:These attributes define the width and height of the image, respectively. 
+
+title:The title attribute is used to provide additional information about the image. 
+
+3.How to create lists in HTML?
+
+Sol:In HTML, we can create both ordered lists (<ol>) and unordered lists (<ul>)
+An ordered list is used to create a list where each item is numbered
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ol>
+An unordered list is used to create a bulleted list.
+<ul>
+  <li>Apple</li>
+  <li>Orange</li>
+  <li>Pineapple</li>
+</ul>
+
+4.How to inter link webpages and navigate to other websites?
+
+Sol:To interlink webpages within our own website, we can use the <a> (anchor) tag in HTML. The href attribute in the <a> tag specifies the URL of the linked page. 
+<a href="page2.html">Go to Page 2</a>
+
+To link to external websites, use the full URL:
+<a href="https://www.aniket.com">Visit Aniket Website</a>
+
+We can navigate using multiple <a> tags to link to different pages on our site:
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+
+
+
+ 
